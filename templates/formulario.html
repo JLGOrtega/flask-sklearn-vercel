@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Predicción con Flask</title>
+  </head>
+  <body>
+    <h1>Ingrese los datos para la predicción</h1>
+    <form action="/predecir" method="post">
+      <label for="caracteristica1">Característica 1:</label>
+      <input type="text" id="caracteristica1" name="caracteristica1"><br>
+      <label for="caracteristica2">Característica 2:</label>
+      <input type="text" id="caracteristica2" name="caracteristica2"><br>
+      <label for="caracteristica3">Característica 3:</label>
+      <input type="text" id="caracteristica3" name="caracteristica3"><br>
+      <!-- Añade más campos según las características de tu modelo -->
+      <input type="submit" value="Predecir">
+    </form>
+  </body>
+</html>
